@@ -1,0 +1,47 @@
+{
+  "cacheVersion": "D20240927T193831",
+  "outputFile": "/Volumes/Data/Laptrinh/App/bybylangtowasm/wasm",
+  "outputLastModificationTime": "",
+  "compile": [
+    [
+      "/Volumes/Data/Laptrinh/App/bybylangtowasm/@m..@s..@s..@s..@s..@sUsers@smacos@s.choosenim@stoolchains@snim-2.2.4@slib@ssystem@sexceptions.nim.c",
+      "clang -c -w -ferror-limit=3 -pthread -O3   -I/Users/macos/.choosenim/toolchains/nim-2.2.4/lib -I/Volumes/Data/Laptrinh/App/bybylangtowasm -o /Volumes/Data/Laptrinh/App/bybylangtowasm/@m..@s..@s..@s..@s..@sUsers@smacos@s.choosenim@stoolchains@snim-2.2.4@slib@ssystem@sexceptions.nim.c.o /Volumes/Data/Laptrinh/App/bybylangtowasm/@m..@s..@s..@s..@s..@sUsers@smacos@s.choosenim@stoolchains@snim-2.2.4@slib@ssystem@sexceptions.nim.c"
+    ],
+    [
+      "/Volumes/Data/Laptrinh/App/bybylangtowasm/@m..@s..@s..@s..@s..@sUsers@smacos@s.choosenim@stoolchains@snim-2.2.4@slib@sstd@sprivate@sdigitsutils.nim.c",
+      "clang -c -w -ferror-limit=3 -pthread -O3   -I/Users/macos/.choosenim/toolchains/nim-2.2.4/lib -I/Volumes/Data/Laptrinh/App/bybylangtowasm -o /Volumes/Data/Laptrinh/App/bybylangtowasm/@m..@s..@s..@s..@s..@sUsers@smacos@s.choosenim@stoolchains@snim-2.2.4@slib@sstd@sprivate@sdigitsutils.nim.c.o /Volumes/Data/Laptrinh/App/bybylangtowasm/@m..@s..@s..@s..@s..@sUsers@smacos@s.choosenim@stoolchains@snim-2.2.4@slib@sstd@sprivate@sdigitsutils.nim.c"
+    ],
+    [
+      "/Volumes/Data/Laptrinh/App/bybylangtowasm/@m..@s..@s..@s..@s..@sUsers@smacos@s.choosenim@stoolchains@snim-2.2.4@slib@ssystem@sdollars.nim.c",
+      "clang -c -w -ferror-limit=3 -pthread -O3   -I/Users/macos/.choosenim/toolchains/nim-2.2.4/lib -I/Volumes/Data/Laptrinh/App/bybylangtowasm -o /Volumes/Data/Laptrinh/App/bybylangtowasm/@m..@s..@s..@s..@s..@sUsers@smacos@s.choosenim@stoolchains@snim-2.2.4@slib@ssystem@sdollars.nim.c.o /Volumes/Data/Laptrinh/App/bybylangtowasm/@m..@s..@s..@s..@s..@sUsers@smacos@s.choosenim@stoolchains@snim-2.2.4@slib@ssystem@sdollars.nim.c"
+    ],
+    [
+      "/Volumes/Data/Laptrinh/App/bybylangtowasm/@m..@s..@s..@s..@s..@sUsers@smacos@s.choosenim@stoolchains@snim-2.2.4@slib@ssystem.nim.c",
+      "clang -c -w -ferror-limit=3 -pthread -O3   -I/Users/macos/.choosenim/toolchains/nim-2.2.4/lib -I/Volumes/Data/Laptrinh/App/bybylangtowasm -o /Volumes/Data/Laptrinh/App/bybylangtowasm/@m..@s..@s..@s..@s..@sUsers@smacos@s.choosenim@stoolchains@snim-2.2.4@slib@ssystem.nim.c.o /Volumes/Data/Laptrinh/App/bybylangtowasm/@m..@s..@s..@s..@s..@sUsers@smacos@s.choosenim@stoolchains@snim-2.2.4@slib@ssystem.nim.c"
+    ],
+    [
+      "/Volumes/Data/Laptrinh/App/bybylangtowasm/@mwasm.nim.c",
+      "clang -c -w -ferror-limit=3 -pthread -O3   -I/Users/macos/.choosenim/toolchains/nim-2.2.4/lib -I/Volumes/Data/Laptrinh/App/bybylangtowasm -o /Volumes/Data/Laptrinh/App/bybylangtowasm/@mwasm.nim.c.o /Volumes/Data/Laptrinh/App/bybylangtowasm/@mwasm.nim.c"
+    ]
+  ],
+  "link": [
+    "/Volumes/Data/Laptrinh/App/bybylangtowasm/@m..@s..@s..@s..@s..@sUsers@smacos@s.choosenim@stoolchains@snim-2.2.4@slib@ssystem@sexceptions.nim.c.o",
+    "/Volumes/Data/Laptrinh/App/bybylangtowasm/@m..@s..@s..@s..@s..@sUsers@smacos@s.choosenim@stoolchains@snim-2.2.4@slib@sstd@sprivate@sdigitsutils.nim.c.o",
+    "/Volumes/Data/Laptrinh/App/bybylangtowasm/@m..@s..@s..@s..@s..@sUsers@smacos@s.choosenim@stoolchains@snim-2.2.4@slib@ssystem@sdollars.nim.c.o",
+    "/Volumes/Data/Laptrinh/App/bybylangtowasm/@m..@s..@s..@s..@s..@sUsers@smacos@s.choosenim@stoolchains@snim-2.2.4@slib@ssystem.nim.c.o",
+    "/Volumes/Data/Laptrinh/App/bybylangtowasm/@mwasm.nim.c.o"
+  ],
+  "linkcmd": "clang   -o /Volumes/Data/Laptrinh/App/bybylangtowasm/wasm /Volumes/Data/Laptrinh/App/bybylangtowasm/@m..@s..@s..@s..@s..@sUsers@smacos@s.choosenim@stoolchains@snim-2.2.4@slib@ssystem@sexceptions.nim.c.o /Volumes/Data/Laptrinh/App/bybylangtowasm/@m..@s..@s..@s..@s..@sUsers@smacos@s.choosenim@stoolchains@snim-2.2.4@slib@sstd@sprivate@sdigitsutils.nim.c.o /Volumes/Data/Laptrinh/App/bybylangtowasm/@m..@s..@s..@s..@s..@sUsers@smacos@s.choosenim@stoolchains@snim-2.2.4@slib@ssystem@sdollars.nim.c.o /Volumes/Data/Laptrinh/App/bybylangtowasm/@m..@s..@s..@s..@s..@sUsers@smacos@s.choosenim@stoolchains@snim-2.2.4@slib@ssystem.nim.c.o /Volumes/Data/Laptrinh/App/bybylangtowasm/@mwasm.nim.c.o    -ldl",
+  "extraCmds": [],
+  "configFiles": [
+    "/Users/macos/.choosenim/toolchains/nim-2.2.4/config/nim.cfg",
+    "/Users/macos/.choosenim/toolchains/nim-2.2.4/config/config.nims"
+  ],
+  "stdinInput": false,
+  "projectIsCmd": false,
+  "cmdInput": "",
+  "currentDir": "/Volumes/Data/Laptrinh/App/bybylangtowasm",
+  "cmdline": "",
+  "depfiles": [],
+  "nimexe": ""
+}

@@ -1,0 +1,26 @@
+mode is 1
+apu tran "print" with "hello world"
+apu mem write "RAM0" with 5
+tran pulse pin 3 width 2ns
+print "Hello world"
+function test
+    print "test1234"
+    print "Xin chào"
+call test
+otest = 100 + 100 + 8739487 - 34827 + 48384 - 5455 + 500 - 90
+print otest
+print 1 + 1 + 10383487 - 438744
+function testtest
+    print "test1234"
+    print "Xin chào"
+call testtest
+print 1234567890+987654321
+print 10000000-99999
+print 314135+271828
+print 9223372037-21474848
+print 999999999-8888888
+print 1234569+987654321
+print 1000000000-1
+print 77777777+222222223
+print 5555555-333333333
+print 313-8
